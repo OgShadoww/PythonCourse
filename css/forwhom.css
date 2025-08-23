@@ -1,0 +1,115 @@
+.forwhom {
+    padding-bottom: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.forwhom__cards {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.forwhom__cards__item {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+    background: rgba(255, 156, 227, 0.15);
+    border: 1px solid #F6A49C;
+    border-radius: 20px;
+    width: 480px;
+    height: 214px;
+}
+#forwhom__cards__item_1 {
+    transform: translateX(-50%);
+}
+#forwhom__cards__item_2 {
+    transform: translateX(50%);
+}
+#forwhom__cards__item_3 {
+    transform: translateY(50%);
+}
+.forwhom__cards__item__icon {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#forwhom__cards__item__icon_1 {
+    width: 185px;
+}
+#forwhom__cards__item__icon_2 {
+    width: 175px;
+}
+#forwhom__cards__item__icon_3 {
+    width: 220.5px;
+}
+.forwhom__cards__item__text {
+    text-align: left;
+    margin-left: 200px;
+}
+.forwhom__cards__line__light {
+    left: 5%;
+    top: -40%;
+    width: 400px;
+}
+@media (max-width: 1189px) {
+    #forwhom__cards__item__icon_1 {
+        width: 155px;
+    }
+    #forwhom__cards__item__icon_2 {
+        width: 145px;
+    }
+    #forwhom__cards__item__icon_3 {
+        width: 190.5px;
+    }
+    .forwhom__cards__item__text {
+        background-color: transparent;
+        color: #E9E5FF;
+    }
+}
+@media (max-width: 650px) {
+    .forwhom__cards {
+        gap: 25px;
+    }
+    #forwhom__cards__item__icon_1 {
+        width: 125px;
+    }
+    #forwhom__cards__item__icon_2 {
+        width: 115px;
+    }
+    #forwhom__cards__item__icon_3 {
+        width: 140.5px;
+    }
+    .forwhom__cards__item {
+        width: 100%;
+        height: 180px;
+        padding-right: 30px;
+        gap: 50px;
+    }
+    .forwhom__cards__item__text {
+        margin-left: 120px;
+    }
+}
+@media (max-width: 480px) {
+    .forwhom__cards__item__text {
+        margin-left: 115px;
+        font-size: 14px;
+    }
+    .forwhom__cards__item {
+        height: 160px;
+    }
+    #forwhom__cards__item__icon_1 {
+        width: 95px;
+    }
+    #forwhom__cards__item__icon_2 {
+        width: 100px;
+    }
+    #forwhom__cards__item__icon_3 {
+        width: 110.5px;
+    }
+}
