@@ -46,7 +46,6 @@
 }
 .footer__middle__nav__title {
     color: #FFB68D;
-    display: flex;
     gap: 20px;
     text-decoration: underline;
     cursor: pointer;
